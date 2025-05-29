@@ -29,7 +29,7 @@ def main():
             print("please enter a valid integer: ")
 
     encryption_message = encrypt(message, shift)
-    decryption_message = decrypt(message, shift)
+    decryption_message = decrypt(encryption_message, shift)
 
     print("your message is:", message)
     print("encryption message is:", encryption_message)
